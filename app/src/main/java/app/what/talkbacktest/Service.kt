@@ -218,12 +218,12 @@ class TalkBackCloneService : AccessibilityService() {
                     when (text?.lowercase()) {
                         "e" -> {
                             actuallySpeak("Совершаю экстренный звонок", false)
-                            makeDirectCall(this, "89287560825")
+                            makeDirectCall(this, "")
                         }
 
                         "h" -> {
                             actuallySpeak("Строю маршрут до дома", false)
-                            startNavigationToHome(this, "г.Ростов-на-Дону пер. 1й Поклонный 25/98")
+                            startNavigationToHome(this, "")
                         }
 
                         "t" -> {
